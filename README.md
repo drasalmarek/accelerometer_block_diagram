@@ -1,0 +1,1 @@
+# accelerometer_block_diagram
