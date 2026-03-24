@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.5">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1019" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="JsM6PMH7IJpW-MvMnxUe-5" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JsM6PMH7IJpW-MvMnxUe-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="JsM6PMH7IJpW-MvMnxUe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JsM6PMH7IJpW-MvMnxUe-6" connectable="0" parent="JsM6PMH7IJpW-MvMnxUe-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Časované&lt;br&gt;(např. jednou za minutu)" vertex="1">
+          <mxGeometry relative="1" x="-0.1179" y="-1" as="geometry">
+            <mxPoint x="14" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsM6PMH7IJpW-MvMnxUe-1" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Režim hlubokého spánku" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JsM6PMH7IJpW-MvMnxUe-7" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JsM6PMH7IJpW-MvMnxUe-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="JsM6PMH7IJpW-MvMnxUe-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JsM6PMH7IJpW-MvMnxUe-8" connectable="0" parent="JsM6PMH7IJpW-MvMnxUe-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20connectable%3D%220%22%20parent%3D%221%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20value%3D%22%C4%8Casovan%C3%A9%26lt%3Bbr%26gt%3B(nap%C5%99.%20jednou%20za%20minutu)%22%20vertex%3D%221%22%3E%3CmxGeometry%20x%3D%22355.7142857142858%22%20y%3D%22120%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.156" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsM6PMH7IJpW-MvMnxUe-9" connectable="0" parent="JsM6PMH7IJpW-MvMnxUe-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Časované&lt;br&gt;(po několika sekundách)" vertex="1">
+          <mxGeometry relative="1" x="0.0179" y="2" as="geometry">
+            <mxPoint y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsM6PMH7IJpW-MvMnxUe-10" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JsM6PMH7IJpW-MvMnxUe-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JsM6PMH7IJpW-MvMnxUe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JsM6PMH7IJpW-MvMnxUe-11" connectable="0" parent="JsM6PMH7IJpW-MvMnxUe-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Po přijetí příkazu&lt;br&gt;POWer:ON" vertex="1">
+          <mxGeometry relative="1" x="-0.1983" as="geometry">
+            <mxPoint x="50" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsM6PMH7IJpW-MvMnxUe-2" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Čekání na plné probuzení" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JsM6PMH7IJpW-MvMnxUe-13" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JsM6PMH7IJpW-MvMnxUe-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="JsM6PMH7IJpW-MvMnxUe-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JsM6PMH7IJpW-MvMnxUe-14" connectable="0" parent="JsM6PMH7IJpW-MvMnxUe-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Po přijetí příkazu&lt;br&gt;POWer:OFF" vertex="1">
+          <mxGeometry relative="1" x="0.1138" y="2" as="geometry">
+            <mxPoint x="37" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsM6PMH7IJpW-MvMnxUe-15" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JsM6PMH7IJpW-MvMnxUe-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="JsM6PMH7IJpW-MvMnxUe-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JsM6PMH7IJpW-MvMnxUe-16" connectable="0" parent="JsM6PMH7IJpW-MvMnxUe-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Po přijetí příkazu&lt;br&gt;MEASure:START" vertex="1">
+          <mxGeometry relative="1" x="0.2036" y="-2" as="geometry">
+            <mxPoint x="25" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsM6PMH7IJpW-MvMnxUe-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Aktivní režim" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="JsM6PMH7IJpW-MvMnxUe-17" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JsM6PMH7IJpW-MvMnxUe-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="JsM6PMH7IJpW-MvMnxUe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JsM6PMH7IJpW-MvMnxUe-18" connectable="0" parent="JsM6PMH7IJpW-MvMnxUe-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Po přijetí příkazu&lt;br&gt;MEASure:STOP&lt;br&gt;nebo&lt;br&gt;po maximální nastavené délce měření" vertex="1">
+          <mxGeometry relative="1" x="-0.0512" y="1" as="geometry">
+            <mxPoint y="36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JsM6PMH7IJpW-MvMnxUe-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;" value="Režim měření" vertex="1">
+          <mxGeometry height="60" width="120" x="130" y="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
