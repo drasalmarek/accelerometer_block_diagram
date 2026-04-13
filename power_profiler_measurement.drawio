@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="29.6.6">
   <diagram name="Stránka-1" id="-UHAhOO1kXTgwt-tojIJ">
-    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="274" dy="143" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3d1OQRp4OzBuWpWKXDTp-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Power Profiler Kit II" vertex="1">
+          <mxGeometry height="200" width="200" x="150" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3d1OQRp4OzBuWpWKXDTp-4" parent="3d1OQRp4OzBuWpWKXDTp-1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="185" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="3d1OQRp4OzBuWpWKXDTp-10" parent="3d1OQRp4OzBuWpWKXDTp-1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="185" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="3d1OQRp4OzBuWpWKXDTp-12" edge="1" parent="3d1OQRp4OzBuWpWKXDTp-1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="190" y="169.92000000000002" as="sourcePoint" />
+            <mxPoint x="230" y="170.02000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3d1OQRp4OzBuWpWKXDTp-2" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Měřicí zařízení" vertex="1">
+          <mxGeometry height="200" width="110" x="370" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3d1OQRp4OzBuWpWKXDTp-9" parent="3d1OQRp4OzBuWpWKXDTp-2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="5" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="3d1OQRp4OzBuWpWKXDTp-11" parent="3d1OQRp4OzBuWpWKXDTp-2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="10" width="10" x="5" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="3d1OQRp4OzBuWpWKXDTp-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="240" as="sourcePoint" />
+            <mxPoint x="380" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3d1OQRp4OzBuWpWKXDTp-6" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="210" as="sourcePoint" />
+            <mxPoint x="380" y="210.1" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
