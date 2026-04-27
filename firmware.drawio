@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="y2b3D7AGGMdGO69_okXg-2" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=0;html=1;fontSize=22;" value="" vertex="1">
-          <mxGeometry height="650" width="1070" x="220" y="90" as="geometry" />
+          <mxGeometry height="650" width="1070" x="70" y="89" as="geometry" />
         </mxCell>
         <mxCell id="y2b3D7AGGMdGO69_okXg-3" parent="y2b3D7AGGMdGO69_okXg-2" style="swimlane;startSize=40;html=1;fontSize=22;" value="Hlavní vlákno" vertex="1">
           <mxGeometry height="650" width="360" as="geometry" />
@@ -131,7 +131,7 @@
             <mxPoint x="169.88" y="105" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y2b3D7AGGMdGO69_okXg-5" parent="y2b3D7AGGMdGO69_okXg-2" style="swimlane;startSize=40;html=1;fontSize=22;" value="Vlákno snímačů" vertex="1">
+        <mxCell id="y2b3D7AGGMdGO69_okXg-5" parent="y2b3D7AGGMdGO69_okXg-2" style="swimlane;startSize=40;html=1;fontSize=22;" value="Vlákno pro snímače" vertex="1">
           <mxGeometry height="650" width="370" x="700" as="geometry" />
         </mxCell>
         <mxCell id="y2b3D7AGGMdGO69_okXg-71" edge="1" parent="y2b3D7AGGMdGO69_okXg-5" source="y2b3D7AGGMdGO69_okXg-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="y2b3D7AGGMdGO69_okXg-69" value="">
@@ -187,6 +187,14 @@
         </mxCell>
         <mxCell id="y2b3D7AGGMdGO69_okXg-79" parent="y2b3D7AGGMdGO69_okXg-5" style="rhombus;whiteSpace=wrap;html=1;fontSize=22;" value="Plný ADC buffer?" vertex="1">
           <mxGeometry height="110" width="160" x="44.93" y="428.8" as="geometry" />
+        </mxCell>
+        <mxCell id="y2b3D7AGGMdGO69_okXg-89" edge="1" parent="y2b3D7AGGMdGO69_okXg-5" source="y2b3D7AGGMdGO69_okXg-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="559" />
+            </Array>
+            <mxPoint x="124" y="559" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="y2b3D7AGGMdGO69_okXg-80" parent="y2b3D7AGGMdGO69_okXg-5" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" value="Vyčíst data z ADXL a odeslat do fronty" vertex="1">
           <mxGeometry height="112.5" width="120" x="219.93" y="428.8" as="geometry" />
