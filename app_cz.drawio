@@ -1,9 +1,249 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Stránka-1" id="mIRHGzouT9bveLDuc7Aj">
-    <mxGraphModel dx="1414" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1347" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-1" parent="1" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=0;html=1;fontSize=13;" value="" vertex="1">
+          <mxGeometry height="770" width="220" x="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-2" parent="E8s2PBL_iGTpQiGDKX5t-1" style="swimlane;startSize=20;html=1;fontSize=13;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Hlavní vlákno" vertex="1">
+          <mxGeometry height="770" width="220" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-5" parent="E8s2PBL_iGTpQiGDKX5t-2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="Inicializace" vertex="1">
+          <mxGeometry height="40" width="80" x="120" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-16" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-2" source="E8s2PBL_iGTpQiGDKX5t-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="E8s2PBL_iGTpQiGDKX5t-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-17" connectable="0" parent="E8s2PBL_iGTpQiGDKX5t-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Request&lt;br&gt;connection" vertex="1">
+          <mxGeometry relative="1" x="-0.1467" y="1" as="geometry">
+            <mxPoint x="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-31" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-2" source="E8s2PBL_iGTpQiGDKX5t-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="112.56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-33" connectable="0" parent="E8s2PBL_iGTpQiGDKX5t-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Disconnect all" vertex="1">
+          <mxGeometry relative="1" x="0.0059" as="geometry">
+            <mxPoint x="-15" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-6" parent="E8s2PBL_iGTpQiGDKX5t-2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="Čekání na akci uživatele" vertex="1">
+          <mxGeometry height="50" width="80" x="120" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-7" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-2" source="E8s2PBL_iGTpQiGDKX5t-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="E8s2PBL_iGTpQiGDKX5t-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-32" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-2" source="E8s2PBL_iGTpQiGDKX5t-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="E8s2PBL_iGTpQiGDKX5t-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-8" parent="E8s2PBL_iGTpQiGDKX5t-2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="Odpojení všech zařízení" vertex="1">
+          <mxGeometry height="50" width="80" x="9.999999999999545" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-19" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-2" source="E8s2PBL_iGTpQiGDKX5t-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="E8s2PBL_iGTpQiGDKX5t-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-20" connectable="0" parent="E8s2PBL_iGTpQiGDKX5t-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Nalezeno&lt;br&gt;zařízení" vertex="1">
+          <mxGeometry relative="1" x="0.3" y="3" as="geometry">
+            <mxPoint x="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-12" parent="E8s2PBL_iGTpQiGDKX5t-2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="Skenování BLE" vertex="1">
+          <mxGeometry height="50" width="80" x="120" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-21" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-2" source="E8s2PBL_iGTpQiGDKX5t-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="E8s2PBL_iGTpQiGDKX5t-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-22" connectable="0" parent="E8s2PBL_iGTpQiGDKX5t-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NE" vertex="1">
+          <mxGeometry relative="1" x="-0.5743" y="-2" as="geometry">
+            <mxPoint x="8" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-24" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-2" source="E8s2PBL_iGTpQiGDKX5t-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="E8s2PBL_iGTpQiGDKX5t-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-25" connectable="0" parent="E8s2PBL_iGTpQiGDKX5t-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ANO" vertex="1">
+          <mxGeometry relative="1" x="0.5444" y="1" as="geometry">
+            <mxPoint x="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-18" parent="E8s2PBL_iGTpQiGDKX5t-2" style="rhombus;whiteSpace=wrap;html=1;" value="Vybrané nepřipojené zařízení?" vertex="1">
+          <mxGeometry height="90" width="100" x="110" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-27" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-2" source="E8s2PBL_iGTpQiGDKX5t-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="E8s2PBL_iGTpQiGDKX5t-26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-23" parent="E8s2PBL_iGTpQiGDKX5t-2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="Připojit a odeslat POW:ON" vertex="1">
+          <mxGeometry height="50" width="80" x="120" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-28" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-2" source="E8s2PBL_iGTpQiGDKX5t-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="E8s2PBL_iGTpQiGDKX5t-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="525" />
+              <mxPoint x="70" y="228" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-29" connectable="0" parent="E8s2PBL_iGTpQiGDKX5t-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NE" vertex="1">
+          <mxGeometry relative="1" x="-0.9015" y="-1" as="geometry">
+            <mxPoint x="8" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-34" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-2" source="E8s2PBL_iGTpQiGDKX5t-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="E8s2PBL_iGTpQiGDKX5t-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="580" />
+              <mxPoint x="50" y="580" />
+              <mxPoint x="50" y="180" />
+              <mxPoint x="140" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-35" connectable="0" parent="E8s2PBL_iGTpQiGDKX5t-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ANO" vertex="1">
+          <mxGeometry relative="1" x="-0.8224" y="1" as="geometry">
+            <mxPoint x="-17" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-26" parent="E8s2PBL_iGTpQiGDKX5t-2" style="rhombus;whiteSpace=wrap;html=1;" value="Všechna &lt;br&gt;zařízení připojena?" vertex="1">
+          <mxGeometry height="90" width="100" x="110" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-3" parent="E8s2PBL_iGTpQiGDKX5t-1" style="swimlane;startSize=20;html=1;fontSize=13;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="Vlákno pro komunikaci" vertex="1">
+          <mxGeometry height="770" width="300" x="220" as="geometry">
+            <mxRectangle height="480" width="40" x="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-36" parent="E8s2PBL_iGTpQiGDKX5t-3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="Odeslání příkazu" vertex="1">
+          <mxGeometry height="50" width="80" x="40" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-44" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-3" source="E8s2PBL_iGTpQiGDKX5t-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="E8s2PBL_iGTpQiGDKX5t-43" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-42" parent="E8s2PBL_iGTpQiGDKX5t-3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="Inicializace" vertex="1">
+          <mxGeometry height="40" width="80" x="165" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-46" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-3" source="E8s2PBL_iGTpQiGDKX5t-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="E8s2PBL_iGTpQiGDKX5t-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-43" parent="E8s2PBL_iGTpQiGDKX5t-3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="Čekání na data ze zařízení" vertex="1">
+          <mxGeometry height="50" width="80" x="165" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-48" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-3" source="E8s2PBL_iGTpQiGDKX5t-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="E8s2PBL_iGTpQiGDKX5t-47" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-49" connectable="0" parent="E8s2PBL_iGTpQiGDKX5t-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NE" vertex="1">
+          <mxGeometry relative="1" x="0.4061" y="2" as="geometry">
+            <mxPoint y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-52" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-3" source="E8s2PBL_iGTpQiGDKX5t-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="E8s2PBL_iGTpQiGDKX5t-51" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-53" connectable="0" parent="E8s2PBL_iGTpQiGDKX5t-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ANO" vertex="1">
+          <mxGeometry relative="1" x="0.55" as="geometry">
+            <mxPoint x="25" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-45" parent="E8s2PBL_iGTpQiGDKX5t-3" style="rhombus;whiteSpace=wrap;html=1;" value="Obsahuje &quot;Sending file:&quot;?" vertex="1">
+          <mxGeometry height="90" width="100" x="155" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-50" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-3" source="E8s2PBL_iGTpQiGDKX5t-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="E8s2PBL_iGTpQiGDKX5t-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-47" parent="E8s2PBL_iGTpQiGDKX5t-3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="Výpis dat do konzole" vertex="1">
+          <mxGeometry height="50" width="80" x="50" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-73" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-3" source="E8s2PBL_iGTpQiGDKX5t-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="E8s2PBL_iGTpQiGDKX5t-72" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-51" parent="E8s2PBL_iGTpQiGDKX5t-3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="Vytvoření souboru na disku" vertex="1">
+          <mxGeometry height="50" width="80" x="165" y="284" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-57" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-3" source="E8s2PBL_iGTpQiGDKX5t-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="E8s2PBL_iGTpQiGDKX5t-56" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-66" connectable="0" parent="E8s2PBL_iGTpQiGDKX5t-57" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NE" vertex="1">
+          <mxGeometry relative="1" x="0.4297" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-65" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-3" source="E8s2PBL_iGTpQiGDKX5t-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="E8s2PBL_iGTpQiGDKX5t-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-67" connectable="0" parent="E8s2PBL_iGTpQiGDKX5t-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ANO" vertex="1">
+          <mxGeometry relative="1" x="-0.0808" y="1" as="geometry">
+            <mxPoint x="24" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-54" parent="E8s2PBL_iGTpQiGDKX5t-3" style="rhombus;whiteSpace=wrap;html=1;" value="Přišel packet včas?" vertex="1">
+          <mxGeometry height="90" width="100" x="155" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-76" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-3" source="E8s2PBL_iGTpQiGDKX5t-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="E8s2PBL_iGTpQiGDKX5t-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-56" parent="E8s2PBL_iGTpQiGDKX5t-3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="FIL:NACK" vertex="1">
+          <mxGeometry height="50" width="80" x="50" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-68" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-3" source="E8s2PBL_iGTpQiGDKX5t-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="E8s2PBL_iGTpQiGDKX5t-60" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-59" parent="E8s2PBL_iGTpQiGDKX5t-3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="Zápis do souboru" vertex="1">
+          <mxGeometry height="50" width="80" x="165" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-70" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-3" source="E8s2PBL_iGTpQiGDKX5t-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="E8s2PBL_iGTpQiGDKX5t-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-60" parent="E8s2PBL_iGTpQiGDKX5t-3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="FIL:ACK" vertex="1">
+          <mxGeometry height="50" width="80" x="165" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-77" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-3" source="E8s2PBL_iGTpQiGDKX5t-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="E8s2PBL_iGTpQiGDKX5t-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="710" />
+              <mxPoint x="30" y="363" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-78" connectable="0" parent="E8s2PBL_iGTpQiGDKX5t-77" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NE" vertex="1">
+          <mxGeometry relative="1" x="-0.9407" y="2" as="geometry">
+            <mxPoint x="13" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-69" parent="E8s2PBL_iGTpQiGDKX5t-3" style="rhombus;whiteSpace=wrap;html=1;" value="Poslední &lt;br&gt;packet?" vertex="1">
+          <mxGeometry height="60" width="95" x="155" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-75" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-3" source="E8s2PBL_iGTpQiGDKX5t-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="E8s2PBL_iGTpQiGDKX5t-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-72" parent="E8s2PBL_iGTpQiGDKX5t-3" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" value="Příjem packetu" vertex="1">
+          <mxGeometry height="50" width="80" x="165" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-79" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-3" source="E8s2PBL_iGTpQiGDKX5t-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="E8s2PBL_iGTpQiGDKX5t-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="710" />
+              <mxPoint x="280" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-80" connectable="0" parent="E8s2PBL_iGTpQiGDKX5t-79" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ANO" vertex="1">
+          <mxGeometry relative="1" x="-0.9704" as="geometry">
+            <mxPoint x="-4" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-38" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-1" source="E8s2PBL_iGTpQiGDKX5t-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="E8s2PBL_iGTpQiGDKX5t-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-40" connectable="0" parent="E8s2PBL_iGTpQiGDKX5t-38" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Odeslat příkaz" vertex="1">
+          <mxGeometry relative="1" x="0.2762" y="-1" as="geometry">
+            <mxPoint x="22" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E8s2PBL_iGTpQiGDKX5t-39" edge="1" parent="E8s2PBL_iGTpQiGDKX5t-1" source="E8s2PBL_iGTpQiGDKX5t-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="E8s2PBL_iGTpQiGDKX5t-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
